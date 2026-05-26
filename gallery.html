@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Stella 🧁 Hearts2Hearts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gallery-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">🧁 STELLA</a>
+    <button class="menu-toggle">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-title">
+  <h2>Gallery</h2>
+  <p>Stella's best moments — stage, official, and more</p>
+</div>
+
+<div class="container">
+
+  <div class="gallery-filters fade-in">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="official">Official</button>
+    <button class="filter-btn" data-filter="stage">Stage</button>
+    <button class="filter-btn" data-filter="airport">Airport</button>
+    <button class="filter-btn" data-filter="casual">Casual</button>
+  </div>
+
+  <div class="gallery-grid fade-in">
+
+    <!-- Official photos -->
+    <div class="gallery-item" data-category="official">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #ffb6c1, #ff69b4);">
+        🧁<br>Debut Teaser<br><small>The Chase</small>
+      </div>
+      <div class="overlay">Debut Teaser Photo — The Chase</div>
+    </div>
+
+    <div class="gallery-item" data-category="official">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #ff85a2, #c94b7a);">
+        📸<br>Concept Photo<br><small>FOCUS Era</small>
+      </div>
+      <div class="overlay">FOCUS Concept Photo</div>
+    </div>
+
+    <div class="gallery-item" data-category="official">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #f8a4c8, #e891b0);">
+        ✨<br>Group Photo<br><small>Hearts2Hearts</small>
+      </div>
+      <div class="overlay">Hearts2Hearts Group Photo</div>
+    </div>
+
+    <!-- Stage photos -->
+    <div class="gallery-item" data-category="stage">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #2d1b4e, #5a3070);">
+        🎤<br>Debut Stage<br><small>The Chase · M Countdown</small>
+      </div>
+      <div class="overlay">Debut Stage — M Countdown 2025.02.27</div>
+    </div>
+
+    <div class="gallery-item" data-category="stage">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a1a3e, #3d2e6e);">
+        🏆<br>First Win<br><small>The Show · 250311</small>
+      </div>
+      <div class="overlay">First Music Show Win — The Show 2025.03.11</div>
+    </div>
+
+    <div class="gallery-item" data-category="stage">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #3d1a3e, #6e2e6e);">
+        💃<br>FOCUS Stage<br><small>Comeback Stage</small>
+      </div>
+      <div class="overlay">FOCUS Comeback Stage</div>
+    </div>
+
+    <div class="gallery-item" data-category="stage">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #2e1a3e, #4e3070);">
+        🌟<br>Special Stage<br><small>Pretty Please</small>
+      </div>
+      <div class="overlay">Pretty Please Special Stage</div>
+    </div>
+
+    <!-- Airport photos -->
+    <div class="gallery-item" data-category="airport">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #b8c5d0, #8a9ba8);">
+        ✈️<br>Airport Fashion<br><small>Incheon Airport</small>
+      </div>
+      <div class="overlay">Incheon Airport — Departure</div>
+    </div>
+
+    <div class="gallery-item" data-category="airport">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #c0c8d0, #9098a0);">
+        ✈️<br>Shanghai Trip<br><small>New Hair Style</small>
+      </div>
+      <div class="overlay">Shanghai Schedule — Airport Arrival</div>
+    </div>
+
+    <!-- Casual / behind photos -->
+    <div class="gallery-item" data-category="casual">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #ffe0cc, #ffc8a0);">
+        ☀️<br>Behind Cut<br><small>Music Show Waiting Room</small>
+      </div>
+      <div class="overlay">Behind the Scenes — Music Show</div>
+    </div>
+
+    <div class="gallery-item" data-category="casual">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #ffe8d6, #ffd0b8);">
+        🎂<br>Birthday Live<br><small>250618</small>
+      </div>
+      <div class="overlay">18th Birthday Live — 2025.06.18</div>
+    </div>
+
+    <div class="gallery-item" data-category="casual">
+      <div class="gallery-placeholder" style="background: linear-gradient(135deg, #fff0e0, #ffe0c0);">
+        📱<br>Selfie<br><small>Bubble Update</small>
+      </div>
+      <div class="overlay">Bubble Selfie Update</div>
+    </div>
+
+  </div>
+
+  <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: var(--text-light);">
+    Replace placeholder images with real Stella photos. Add images to <code>images/</code> folder and update <code>gallery.html</code>.
+  </p>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox">
+  <button class="lightbox-close">&times;</button>
+  <img src="" alt="">
+</div>
+
+<footer class="footer">
+  <p>Made with <span class="heart">&#10084;</span> for Stella &middot; Hearts2Hearts Fan Site &middot; 2025</p>
+  <p style="margin-top: 4px; font-size: 0.75rem;">This is a fan-made site. Not affiliated with SM Entertainment.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
